@@ -18,7 +18,7 @@ export const portfolioData = {
       { label: 'Delivery style', value: 'Clean UI, practical logic, public repositories' }
     ],
     socials: [
-      { label: 'GitHub', url: 'https://github.com/beingvicky' },
+      { label: 'GitHub', url: 'https://github.com/vikassampath' },
       { label: 'LinkedIn', url: 'https://www.linkedin.com/in/vikas-sampath-1766a731a/' }
     ]
   },
@@ -77,7 +77,7 @@ export const portfolioData = {
       stack: ['AI/ML', 'Full Stack', 'Career Tech'],
       outcome: 'Transforms learner profiles into clearer job-aligned next steps.',
       signals: ['Skill-gap mapping', 'Job-fit workflow'],
-      url: 'https://github.com/beingvicky/Skill2Job',
+      url: 'https://github.com/vikassampath/Skill2Job',
       accent: '#ff6b4a'
     },
     {
@@ -88,7 +88,7 @@ export const portfolioData = {
       stack: ['AI', 'Analytics', 'Real Estate'],
       outcome: 'Turns fragmented property signals into a more structured research experience.',
       signals: ['Market intelligence', 'Location-led insights'],
-      url: 'https://github.com/beingvicky/PropIntel-AI-Bengaluru-Mysuru-Real-Estate-Intelligence-Platform',
+      url: 'https://github.com/vikassampath/PropIntel-AI-Bengaluru-Mysuru-Real-Estate-Intelligence-Platform',
       accent: '#2ebfa5'
     },
     {
@@ -99,7 +99,7 @@ export const portfolioData = {
       stack: ['Machine Learning', 'Python', 'Web App'],
       outcome: 'Packages prediction logic into a usable interface for faster estimate exploration.',
       signals: ['ML estimate pipeline', 'Prediction UX'],
-      url: 'https://github.com/beingvicky/AI-Powered-Real-Estate-Price-Prediction-Platform',
+      url: 'https://github.com/vikassampath/AI-Powered-Real-Estate-Price-Prediction-Platform',
       accent: '#f0b429'
     },
     {
@@ -110,7 +110,7 @@ export const portfolioData = {
       stack: ['Full Stack', 'Database', 'Workflow'],
       outcome: 'Simplifies coordination between students, opportunities, and placement operations.',
       signals: ['Admin coordination', 'Student record flows'],
-      url: 'https://github.com/beingvicky/Smart-Placement-and-Internship-Management-System',
+      url: 'https://github.com/vikassampath/Smart-Placement-and-Internship-Management-System',
       accent: '#7c9cff'
     },
     {
@@ -121,7 +121,7 @@ export const portfolioData = {
       stack: ['Full Stack', 'Learning Tech', 'Web App'],
       outcome: 'Explores lightweight matching flows with a learner-first project architecture.',
       signals: ['Learner matching', 'Full-stack prototype'],
-      url: 'https://github.com/beingvicky/SkillBridge-Connect',
+      url: 'https://github.com/vikassampath/SkillBridge-Connect',
       accent: '#d879ff'
     }
   ],
