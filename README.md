@@ -5,7 +5,7 @@ Interactive 3D Developer Portfolio built with React, Vite, Three.js, and React T
 ## Live Site
 
 ```text
-https://beingvicky.github.io/VS-Portfolio/
+https://vikassampath.github.io/VS-Portfolio/
 ```
 
 ## Run Locally
