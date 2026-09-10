@@ -284,7 +284,13 @@ function App() {
               <a className="button primary" href="#work">
                 <BriefcaseBusiness size={18} /> View Work
               </a>
-              <a className="button ghost" href={githubUrl} target="_blank" rel="noreferrer">
+              <a
+                className="button ghost"
+                href={githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open Vikas Sampath GitHub profile"
+              >
                 <Github size={18} /> GitHub
               </a>
             </div>
