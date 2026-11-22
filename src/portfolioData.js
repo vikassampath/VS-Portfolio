@@ -13,7 +13,7 @@ export const portfolioData = {
     resumeUrl: '#',
     highlights: ['React interfaces', 'AI/ML workflows', 'Deployment-ready builds'],
     snapshot: [
-      { label: 'Primary stack', value: 'React / Python / AI APIs' },
+      { label: 'Primary stack', value: 'React / TypeScript / Java / PostgreSQL' },
       { label: 'Product focus', value: 'Career tech, real estate, workflow systems' },
       { label: 'Delivery style', value: 'Clean UI, practical logic, public repositories' }
     ],
@@ -58,6 +58,12 @@ export const portfolioData = {
   skills: [
     'JavaScript',
     'React',
+    'TypeScript',
+    'Java',
+    'Spring Boot',
+    'PostgreSQL',
+    'Docker',
+    'Tailwind CSS',
     'Python',
     'Machine Learning',
     'AI Integration',
@@ -79,6 +85,23 @@ export const portfolioData = {
       signals: ['Skill-gap mapping', 'Job-fit workflow'],
       url: 'https://github.com/vikassampath/Skill2Job',
       accent: '#ff6b4a'
+    },
+    {
+      title: 'PennyWise',
+      type: 'Featured · Personal Finance Platform',
+      featured: true,
+      status: '9 of 10 phases complete · 90%',
+      description:
+        'A secure full-stack finance platform for managing transactions, budgets, savings goals, recurring payments, and financial reports. Its modular monolith pairs a React and TypeScript frontend with Spring Boot services and PostgreSQL.',
+      stack: ['Java 25', 'Spring Boot 4', 'React', 'TypeScript', 'PostgreSQL', 'Docker'],
+      outcome: 'Brings everyday money management, spending insights, and exportable reports into one dashboard.',
+      signals: ['RS256 JWT + refresh-token rotation', 'Argon2id · CSRF protection', 'BigDecimal financial calculations'],
+      url: 'https://github.com/vikassampath/pennywise-personal-finance',
+      accent: '#75e0bd',
+      architecture: 'React + TypeScript → REST API → Spring Boot modules → PostgreSQL',
+      verification: ['31 backend tests', '15 frontend tests', '5 Playwright tests', 'Docker health checks passed'],
+      capabilities: ['Budgets & alerts', 'Savings goals', 'Recurring transactions', 'Analytics & CSV reports'],
+      technologyDetails: ['Spring Security', 'Spring Data JPA', 'Flyway', 'Vite', 'TanStack Query', 'Tailwind CSS 4', 'JUnit 5', 'Vitest', 'Playwright', 'Nginx']
     },
     {
       title: 'PropIntel AI',
