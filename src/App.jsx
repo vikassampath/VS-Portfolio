@@ -328,34 +328,65 @@ function App() {
           </div>
           <div className="project-grid">
             {projects.map((project, index) => (
-              <article className="project-card" key={project.title} style={{ '--accent': project.accent }}>
+              <article
+                className={`project-card${project.featured ? ' featured-project' : ''}`}
+                key={project.title}
+                style={{ '--accent': project.accent }}
+              >
                 <span className="project-index">0{index + 1}</span>
-                <p>{project.type}</p>
-                <h3>{project.title}</h3>
-                <p>{project.description}</p>
-                <div className="project-outcome">
-                  <CheckCircle2 size={16} />
-                  <span>{project.outcome}</span>
+                <div className="project-main">
+                  <p className="project-type">{project.type}</p>
+                  <h3>{project.title}</h3>
+                  <p>{project.description}</p>
+                  <div className="project-outcome">
+                    <CheckCircle2 size={16} />
+                    <span>{project.outcome}</span>
+                  </div>
+                  <ul className="project-signals" aria-label={`${project.title} strengths`}>
+                    {project.signals.map((signal) => (
+                      <li key={signal}>{signal}</li>
+                    ))}
+                  </ul>
+                  <div className="stack">
+                    {project.stack.map((item) => (
+                      <span key={item}>{item}</span>
+                    ))}
+                  </div>
+                  <a
+                    className="project-link"
+                    href={project.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label={`Open ${project.title} on GitHub`}
+                  >
+                    View repository <ArrowUpRight size={16} />
+                  </a>
                 </div>
-                <ul className="project-signals" aria-label={`${project.title} strengths`}>
-                  {project.signals.map((signal) => (
-                    <li key={signal}>{signal}</li>
-                  ))}
-                </ul>
-                <div className="stack">
-                  {project.stack.map((item) => (
-                    <span key={item}>{item}</span>
-                  ))}
-                </div>
-                <a
-                  className="project-link"
-                  href={project.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label={`Open ${project.title} on GitHub`}
-                >
-                  View repository <ArrowUpRight size={16} />
-                </a>
+                {project.featured && (
+                  <aside className="project-details" aria-label="PennyWise project details">
+                    <div className="project-status"><span />{project.status}</div>
+                    <div className="detail-block">
+                      <span className="detail-label">Architecture</span>
+                      <p>{project.architecture}</p>
+                    </div>
+                    <div className="detail-block">
+                      <span className="detail-label">What it does</span>
+                      <ul className="detail-tags">
+                        {project.capabilities.map((item) => <li key={item}>{item}</li>)}
+                      </ul>
+                    </div>
+                    <div className="detail-block">
+                      <span className="detail-label">Verification</span>
+                      <ul className="verification-list">
+                        {project.verification.map((item) => <li key={item}><CheckCircle2 size={14} />{item}</li>)}
+                      </ul>
+                    </div>
+                    <div className="detail-block">
+                      <span className="detail-label">Also built with</span>
+                      <p className="detail-tech">{project.technologyDetails.join(' · ')}</p>
+                    </div>
+                  </aside>
+                )}
               </article>
             ))}
           </div>
