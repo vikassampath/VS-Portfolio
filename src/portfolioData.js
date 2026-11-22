@@ -95,7 +95,7 @@ export const portfolioData = {
       outcome: 'Combines secure money management, cash-flow analytics, budget alerts, and CSV reports in one application.',
       signals: ['RS256 JWT + rotating opaque refresh tokens', 'Argon2id · CSRF · user-level ownership', 'BigDecimal + NUMERIC(19,2) precision'],
       url: 'https://github.com/vikassampath/pennywise-personal-finance',
-      accent: '#2ebfa5'
+      accent: '#a3e870'
     },
     {
       title: 'PropIntel AI',
@@ -106,7 +106,7 @@ export const portfolioData = {
       outcome: 'Turns fragmented property signals into a more structured research experience.',
       signals: ['Market intelligence', 'Location-led insights'],
       url: 'https://github.com/vikassampath/PropIntel-AI-Bengaluru-Mysuru-Real-Estate-Intelligence-Platform',
-      accent: '#2ebfa5'
+      accent: '#58c7f4'
     },
     {
       title: 'AI Real Estate Price Predictor',
