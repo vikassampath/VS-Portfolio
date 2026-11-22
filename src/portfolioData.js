@@ -88,20 +88,14 @@ export const portfolioData = {
     },
     {
       title: 'PennyWise',
-      type: 'Featured · Personal Finance Platform',
-      featured: true,
-      status: 'Phase 9 complete · Public deployment pending',
+      type: 'Personal Finance Platform',
       description:
         'A multi-user finance platform for tracking transactions, setting budgets, building savings goals, scheduling recurring payments, and exploring financial reports. The React app connects to a modular Spring Boot API backed by PostgreSQL.',
       stack: ['Java 25', 'Spring Boot 4.1.2', 'React 19', 'TypeScript 7', 'PostgreSQL 18.7', 'Docker Compose'],
       outcome: 'Combines secure money management, cash-flow analytics, budget alerts, and CSV reports in one application.',
       signals: ['RS256 JWT + rotating opaque refresh tokens', 'Argon2id · CSRF · user-level ownership', 'BigDecimal + NUMERIC(19,2) precision'],
       url: 'https://github.com/vikassampath/pennywise-personal-finance',
-      accent: '#75e0bd',
-      architecture: 'React 19 + TypeScript → Nginx → Spring Boot modular monolith → PostgreSQL 18.7',
-      verification: ['31 backend tests passed', '15 frontend tests passed', '5 Playwright container journeys', 'TypeScript checks + production build passed'],
-      capabilities: ['Transactions & categories', 'Budgets & 80% / 100% alerts', 'Savings goals & recurring payments', 'Analytics, reports & CSV export'],
-      technologyDetails: ['Spring Security', 'Spring Data JPA', 'Flyway', 'Vite 8', 'React Router 7', 'TanStack Query', 'Tailwind CSS 4', 'React Hook Form', 'Zod', 'JUnit 5', 'Vitest', 'Playwright', 'GitHub Actions']
+      accent: '#2ebfa5'
     },
     {
       title: 'PropIntel AI',
