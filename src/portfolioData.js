@@ -98,6 +98,17 @@ export const portfolioData = {
       accent: '#a3e870'
     },
     {
+      title: 'SkillBridge Connect',
+      type: 'Mini Project',
+      description:
+        'A compact platform concept for connecting learners, skills, and opportunities with a clean full-stack project structure.',
+      stack: ['Full Stack', 'Learning Tech', 'Web App'],
+      outcome: 'Explores lightweight matching flows with a learner-first project architecture.',
+      signals: ['Learner matching', 'Full-stack prototype'],
+      url: 'https://github.com/vikassampath/SkillBridge-Connect',
+      accent: '#d879ff'
+    },
+    {
       title: 'PropIntel AI',
       type: 'Real Estate Intelligence',
       description:
@@ -130,17 +141,6 @@ export const portfolioData = {
       url: 'https://github.com/vikassampath/Smart-Placement-and-Internship-Management-System',
       accent: '#7c9cff'
     },
-    {
-      title: 'SkillBridge Connect',
-      type: 'Mini Project',
-      description:
-        'A compact platform concept for connecting learners, skills, and opportunities with a clean full-stack project structure.',
-      stack: ['Full Stack', 'Learning Tech', 'Web App'],
-      outcome: 'Explores lightweight matching flows with a learner-first project architecture.',
-      signals: ['Learner matching', 'Full-stack prototype'],
-      url: 'https://github.com/vikassampath/SkillBridge-Connect',
-      accent: '#d879ff'
-    }
   ],
   timeline: [
     {
